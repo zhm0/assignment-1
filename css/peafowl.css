@@ -1,0 +1,36 @@
+
+body {
+    font-family:'Times New Roman', Times, serif;
+    width: 100%; 
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+#pic {
+width:750px;
+}
+
+#info {
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 15px;
+    text-align: justify;
+}
+
+header {
+    width: 90%;
+}
+
+.link {
+    color:maroon;
+    display: flex;
+    justify-content: space-between;
+}
