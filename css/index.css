@@ -1,5 +1,23 @@
 body {
   font-family: Gill Sans, sans-serif;
-  background-color: salmon;
+  background-image: linear-gradient(45deg, lightblue, lightpink);
   text-align: center;
+  width: 100%;
+}
+
+.links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  width: 400px;
+  padding-left: 50px;
+}
+
+h4 {
+  padding-left: 45px;
+  text-decoration: underline;
 }
