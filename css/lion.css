@@ -1,12 +1,13 @@
 
 body {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Times New Roman', Times, serif;
     width: 100%; 
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    background-image: linear-gradient(90deg, lightyellow, lightgreen);
 }
 
 h1 {
@@ -23,6 +24,7 @@ width:500px;
     padding-right: 40px;
     padding-top: 15px;
     text-align: justify;
+    font-size: 18px;
 }
 
 header {
